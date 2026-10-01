@@ -1,0 +1,4 @@
+customtkinter>=5.2
+psutil>=5.9
+# Solo Windows: envoltorio de LibreHardwareMonitor (temperaturas, GPU, VRAM, discos)
+HardwareMonitor>=1.0; sys_platform == "win32"
